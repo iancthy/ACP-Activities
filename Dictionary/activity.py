@@ -4,5 +4,6 @@ phonebook = {
     "Charlie": "09223334444"
 }
 
-# Output Alice's contact
 print("Alice's number is: " + phonebook["Alice"])
+for name, number in phonebook.items():
+    print(name + ": " + number)
